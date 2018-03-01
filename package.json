@@ -1,0 +1,12 @@
+{
+  "name": "danbut.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabutvin/danbut.com.git"
+  },
+  "author": "dabutvin",
+  "license": "MIT"
+}
