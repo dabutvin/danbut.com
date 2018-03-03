@@ -8,5 +8,8 @@
     "url": "git+https://github.com/dabutvin/danbut.com.git"
   },
   "author": "dabutvin",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.2"
+  }
 }
