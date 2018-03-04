@@ -18,7 +18,7 @@ p {
     font-family: 'Oswald', cursive;
     font-weight: 600;
     color: #000;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 
 .nav-logo:hover {
@@ -29,11 +29,20 @@ p {
     margin-left: 120px;
 }
 
+.menu {
+    justify-content: space-between;
+}
+
+.menu li:first-child {
+    margin-right: auto;
+}
+
 .nav-icon {
     background-size: cover;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     margin-right: 15px;
+    margin-top: 9px;
 }
 
 .hero {
