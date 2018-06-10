@@ -6,3 +6,4 @@
  - https://github.com/dotnet/roslyn/issues/25980
  - https://github.com/StackExchange/StackExchange.Redis/issues/805
  - https://github.com/dependabot/dependabot-core/pull/212
+ - https://github.com/behaviorbot/sentiment-bot/issues/25
