@@ -7,3 +7,4 @@
  - https://github.com/StackExchange/StackExchange.Redis/issues/805
  - https://github.com/dependabot/dependabot-core/pull/212
  - https://github.com/behaviorbot/sentiment-bot/issues/25
+ - https://github.com/ampproject/amphtml/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
