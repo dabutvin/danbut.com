@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Dan Butvinik's developer website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <title>Dan Butvinik - Developer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" />
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/site.min.css" />
+</head>
+
+<body>
+  <%=content%>
+  <script src="/lib/jquery/dist/jquery.slim.min.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105332493-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105332493-4');
+  </script>
+</body>
+
+</html>
