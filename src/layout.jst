@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Dan Butvinik's developer website">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">"
 
+  <link rel="canonical" href="https://danbut.com">
   <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -18,7 +19,38 @@
 </head>
 
 <body>
-  <%=content%>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <a href="/" class="header">
+          <img alt="" src="/images/wave.png">
+          <h1 class="mt-3">Dan Butvinik</h1>
+        </a>
+      </div>
+    </div>
+    <div class="row justify-content-center my-5">
+      <div class="col-4">
+        <h3><a href="/about">😃 About</a></h3>
+      </div>
+      <div class="col-4">
+        <h3><a href="/projects">🎒Projects</a></h3>
+      </div>
+      <div class="col-4">
+        <h3><a href="/contact">📬 Contact</a></h3>
+      </div>
+    </div>
+    <%=content%>
+  </div>
+  <footer class="my-5">
+    <img alt="" src="/images/footer-wave.png">
+    <div class="container">
+      <div class="row text-right">
+        <div class="col">
+          <small>Copyright (c) 2019 Dan Butvinik</small>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="/lib/jquery/dist/jquery.slim.min.js"></script>
   <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105332493-4"></script>
