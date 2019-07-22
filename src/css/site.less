@@ -1,0 +1,91 @@
+h1 {
+  font-family: 'Oswald', cursive;
+  font-size: 3.5rem;
+}
+
+h2,
+h3,
+p,
+small,
+ol {
+  font-family: 'Muli', sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p,
+ol {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.9rem;
+}
+
+img {
+  max-width: 100%;
+
+  &.padded {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+a {
+  color: #111;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.header:hover {
+  color: #000;
+}
+
+.container {
+  padding-top: 50px;
+  max-width: 500px;
+}
+
+p + p {
+  margin-top: 30px;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+h2 a {
+  &:hover {
+    color: #000;
+    border-bottom: 1px #000 dashed;
+  }
+
+  &::after {
+    content: '';
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAArxJREFUaAXtWrtKxEAUVVktfCAiiGhho1aCIFi7lY2NnaC9ndhrs5VWfoWg2FloY7OpFfwA0UJwtxAfiCi4InrOshOy2Twmk5nZNeTCMZM7c+fMmTuTTWK6ujJm3W3SswzeRaBXA38VfZwAbxr6UupiD1G/mnGH/oaVRpMyqA/xX4BuQexvk2Pr4Z+M2AR12BZUA+eByQksmOw8pO8d+B0gyUVhBu3XgUwYxTwAcfuuRLW2lxw5k9g0GpeBSdmgThZEMU4SMRTt3UNzON8C6lcLVmqwD/RxDhwm7IvLLCwzFdQ5wAYQalOoeQfi1qlq/XYoc2tF1J7hXmLmSoB/LPS5e2gV5UE6DFnkbHo44zJTRNtbT/uWothDIy01eh2PEt2lFkMOIUiCT7kJxezGRGsRQw7vRcHPeQzHkd+Z8PwT7a8A7s8w454oA0GX5gr8RSBymaHetShBN2h15rY0U6AYB9AihkO0seTIE2TaxZCkXYKMiGmXIGNi2iHIqBjbgnSK+ebgfVb32dpDOsVQB38K/Fb32RCkWwyFXAD7QK0BlulzrYRS4M2e20KtQDEPAX2Ti37Wp7E+BBOuFdyS/gIH6wDafjQDhsgMNZmpJZdWzDxGybuUSyDJo0fkvVyT8oQnfJOpmpkhxHI/jDU4+TLlBZB6SDSRIQ5koTEY70H2RpMChBgRvyIKcUcTgp5B+uQjlhXDsH5fLE8HAnyBLhOCfsC0AQhR1ygvAdKPAGirbKauctwD48AoIPO0qizAH2giQ4KDmbIqhsQmBQlhVo+5IKvTrUCWZ0hh0qyG5BmyOt0KZHmGFCbNakieIavTrUCWuQxF3W0XMUElhUlKGzKbpoMoQXyGIf6VZW7JCUHVDk9D4vHx0yx+osUXgJ0G/vePnxxImfcDQIpaAyakIu00egXNKXBvh64DWf4A9B/ymvrBu94AAAAASUVORK5CYII=');
+    height: 22px;
+    width: 22px;
+    background-size: cover;
+    margin-left: 6px;
+    display: inline-block;
+  }
+}
+
+h3 + img {
+  margin-top: 30px;
+}
+
+ol {
+  margin-left: 25px;
+  padding: 0;
+}

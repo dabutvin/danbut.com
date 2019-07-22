@@ -1,15 +1,30 @@
 {
   "name": "danbut.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "version": "2.0.0",
+  "description": "Dan Butvinik's developer website",
+  "scripts": {
+    "gen": "grunt gen",
+    "watch": "grunt watch",
+    "serve": "grunt devserver:dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dabutvin/danbut.com.git"
   },
   "author": "dabutvin",
   "license": "MIT",
-  "dependencies": {
-    "express": "4.16.2"
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "eslint": "^5.15.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-devserver": "^0.6.0",
+    "grunt-markdown": "github:dabutvin/grunt-markdown#marked",
+    "jquery": "^3.3.1",
+    "mailtoui": "^1.0.1"
   }
 }
