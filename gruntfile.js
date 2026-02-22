@@ -86,6 +86,8 @@ module.exports = function(grunt) {
     'rename'
   ])
 
+  grunt.registerTask('build', ['gen'])
+
   grunt.registerTask('serve', function() {
     browserSync.init({
       server: './dist',
