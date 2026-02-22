@@ -5,7 +5,7 @@
   "scripts": {
     "gen": "grunt gen",
     "watch": "grunt watch",
-    "serve": "grunt devserver:dist"
+    "serve": "grunt serve"
   },
   "repository": {
     "type": "git",
@@ -14,17 +14,16 @@
   "author": "dabutvin",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "eslint": "^5.15.0",
-    "grunt": "^1.0.3",
-    "grunt-contrib-clean": "^2.0.0",
+    "bootstrap": "^5.3.8",
+    "browser-sync": "^3.0.4",
+    "eslint": "^9.39.3",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-less": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-devserver": "^0.6.0",
     "grunt-markdown": "github:dabutvin/grunt-markdown#marked",
-    "jquery": "^3.3.1",
-    "mailtoui": "^1.0.1"
+    "mailtoui": "^1.0.3"
   }
 }

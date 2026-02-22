@@ -1,10 +1,11 @@
+const browserSync = require('browser-sync').create()
+
 module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean')
   grunt.loadNpmTasks('grunt-markdown')
   grunt.loadNpmTasks('grunt-contrib-less')
   grunt.loadNpmTasks('grunt-contrib-cssmin')
   grunt.loadNpmTasks('grunt-contrib-copy')
-  grunt.loadNpmTasks('grunt-devserver')
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadTasks('./tasks')
 
@@ -59,7 +60,7 @@ module.exports = function(grunt) {
           {
             expand: true,
             cwd: 'node_modules',
-            src: ['bootstrap/dist/**', 'jquery/dist/**', 'mailtoui/dist/**'],
+            src: ['bootstrap/dist/**', 'mailtoui/dist/**'],
             dest: 'dist/lib/'
           }
         ]
@@ -73,13 +74,6 @@ module.exports = function(grunt) {
           spawn: false
         }
       }
-    },
-    devserver: {
-      dist: {
-        options: {
-          base: 'dist'
-        }
-      }
     }
   })
 
@@ -91,4 +85,13 @@ module.exports = function(grunt) {
     'copy',
     'rename'
   ])
+
+  grunt.registerTask('serve', function() {
+    browserSync.init({
+      server: './dist',
+      files: ['dist/**/*'],
+      open: true
+    })
+    grunt.task.run('watch')
+  })
 }
